@@ -8,7 +8,7 @@ This is an example REST Api designed to be deployed on Cyclic.sh
 ## Examples
 
 ### Create/Update - Insert/Upsert
-
+ 
 ```shell
 curl -i https://localhost:3000/animals/rin%20tin%20tin \
     --data '{"breed":"German Shepard", "gender": "male"}' \
